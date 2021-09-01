@@ -103,6 +103,7 @@ a {
 .material-icons{
     color: #5f6368;
     opacity: 1;
+    font-size:16px;
 }
 button{
     font-weight: 500;
@@ -123,4 +124,138 @@ button{
     margin-left: 8px;
     background:#1a73e8;
     border: 1px solid transparent;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:150px;
+    max-height:290px;
+    height calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.center {
+    max-height: 230px;
+    text-align:center;
+    height:100%;
+    margin: auto;
+    display:block;
+}
+.logoPlace {
+    height: calc(160% - 220px);
+}
+.logo{
+    height:126px;
+    max-height: 100%;
+    position:relative;
+}
+.centerMiddle{
+    padding:20px;
+    flex-shrink:0;
+    max-height:110px;
+    box-sizing:border-box;
+    display:flex;
+}
+.search{
+    padding-top:6px;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    max-width: 784px;
+}
+.searchBox{
+    width:auto;
+    max-width: 584px;
+    background: #fff;
+    display:flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 43px;
+    width:532px;
+}
+.icon{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.iconSpace{
+    display:flex;
+    align-items:center;
+    padding-right:13px;
+    margin-top:-50px;
+}
+#searchIcon {
+    display:flex;
+    align-items:center;
+    padding-right:13px;
+    margin-top:-5px;
+    font-size:20px;
+    color:#9aa0a6;
+}
+.input{
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+.footer{
+    flex-grow:1;
+    box-sizing:border-box;
+    flex-shrink:0;
+}
+.centerEnd{
+    flex-grow:1;
+    box-sizing:border-box;
+    flex-shrink:0;
+}
+.ending{
+    background:#f2f2f2;
+    flex-shrink:0;
+    box-sizing:border-box;
+}
+.bottom{
+    justify-content: space-evenly;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.leftSideFoot {
+    justify-content: flex-start;
+    min-width: 30%;
+    order:1;
+    display:flex;
+    flex-wrap:wrap;
+}
+.leftFoot {
+    color: #70757a;
+    display:block;
+    padding:15px;
+    white-space:nowrap;
+    text-decoration: none;
+}
+middleFoot{
+    order: 0;
+    width:100%;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+}
+carbon {
+    height:14px;
+    margin-right:6px;
+}
+rightSideFoot {
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    display:flex;
+    flex-wrap:wrap;
+}
+rightFoot {
+    position: relative;
 }
